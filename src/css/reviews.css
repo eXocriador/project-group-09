@@ -1,0 +1,174 @@
+/* страница сгенерированна с помощь "LGBT chat" и ИИ "DickPic" */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+body{
+    font-family: "Gilroy", sans-serif;
+    background-color: #fff;
+    color: #0C0C0C;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* если подключены стили то все выше можно удалить */
+
+/* https://youtu.be/q3z2wheJWyk?si=r14Uku3RyMSXT2BI&t=123 */
+
+/* начало */
+
+.sec-Reviews {
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.container {
+    min-width: 320px;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.rev-h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    color: #0C0C0C;
+    margin-bottom: 40px;
+}
+
+.li-img {
+    margin: 0 auto 24px;
+    border-radius: 50%;
+}
+
+.rev-li {
+    border-radius: 30px;
+    padding: 32px 36px;
+    width: 335px;
+    height: 262px;
+    background: #F3F3F3;
+}
+
+.ul-li-H {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #0C0C0C;
+    margin: 0 auto 8px;
+}
+
+.li-p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(12, 12, 12, 0.4);
+    width: 263px;
+    height: 90px;
+}
+
+.rev-li.li-tablet {
+    display: none;
+}
+
+.rev-li.li-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        max-width: 768px;
+    }
+
+    .rev-ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .rev-li.li-tablet {
+        display: block;
+    }
+
+    .li-p {
+        font-size: 16px;
+        line-height: 1.25;
+        width: 272px;
+        height: 100px;
+    }
+
+    .rev-li {
+        width: 344px;
+        height: 272px;
+    }
+
+    .ul-li-H {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.1;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .container {
+        max-width: 1200px;
+    }
+
+    .rev-li.li-desktop {
+        display: block;
+    }
+
+    .li-p {
+        width: 298px;
+    }
+
+    .rev-li {
+        width: 370px;
+    }
+}
+
+/* конец */
