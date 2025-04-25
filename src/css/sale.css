@@ -1,0 +1,129 @@
+.sale-main {
+     font-weight: 600;
+     font-size: 32px;
+     line-height: 100%;
+     letter-spacing: -0.02em;
+     margin-bottom: 24px;
+}
+
+.sale-photos {
+     margin-bottom: 20px;
+}
+
+.sale-photos-list {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;;
+}
+
+.sale-photos-item {
+     width: calc((100% - 15px) / 4);
+     height: 80px;
+     border: 1px solid rgba(12, 12, 12, 0.05);
+     border-radius: 16px;
+     background-color:  #f3f3f3;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 20px;
+}
+
+.sale-photos-item-main {
+     border: 1px solid rgba(12, 12, 12, 0.05);
+     border-radius: 30px;
+     width: 335px;
+     height: 385px;
+     background-color:  #f3f3f3;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.sale-text {
+     background-color: #3350e9;
+     border-radius: 30px;
+     padding: 48px 28px;
+}
+
+.sale-table {
+     margin-bottom: 20px;
+}
+
+.sale-hero {
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 1.17;
+     letter-spacing: -0.02em;
+     color: #fbfbfb;
+     margin-bottom: 10px;
+}
+
+.sale-hero-par {
+     font-weight: 400;
+font-size: 14px;
+line-height: 1.23;
+letter-spacing: -0.02em;
+color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-prices-list {
+     margin-bottom: 28px;
+     display: flex;
+     gap: 9px;
+     align-items: center;
+}
+
+.sale-prices-item-ang{
+     border-radius: 8px;
+     width: 68px;
+     height: 32px;
+     background: rgba(251, 251, 251, 0.1);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.sale-price-action {
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 1.25;
+     letter-spacing: -0.02em;
+     color: #fbfbfb;
+}
+
+.sale-price {
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 1.17;
+     letter-spacing: -0.02em;
+     text-decoration: line-through;
+     color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-paragraph {
+     font-weight: 500;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+color: rgba(251, 251, 251, 0.7);
+margin-bottom: 28px;
+}
+
+.sale-spec-list {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 8px;
+}
+
+.sale-spec-item {
+     border: 1px solid rgba(251, 251, 251, 0.2);
+     border-radius: 8px;
+     padding: 8px 12px;
+}
+
+.sale-spec-par {
+     font-weight: 500;
+     font-size: 12px;
+     line-height: 1.33;
+     color:#fbfbfb;
+}
