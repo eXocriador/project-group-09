@@ -13,7 +13,15 @@
 .sale-photos-list {
      display: flex;
      flex-wrap: wrap;
-     justify-content: space-between;;
+     /* justify-content: space-between; */
+}
+
+.small-photos {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     width: 100%;
+     margin-bottom: 20px;
 }
 
 .sale-photos-item {
@@ -25,7 +33,6 @@
      display: flex;
      align-items: center;
      justify-content: center;
-     margin-bottom: 20px;
 }
 
 .sale-photos-item-main {
@@ -126,4 +133,110 @@ margin-bottom: 28px;
      font-size: 12px;
      line-height: 1.33;
      color:#fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+     .sale-main {
+          font-weight: 600;
+          font-size: 48px;
+          line-height: 0.91667;
+          letter-spacing: -0.02em;
+     }
+
+     .sale-photos-list {
+          
+          flex-wrap: nowrap;
+     }
+
+     .small-photos {
+          flex-direction: column;
+          margin-bottom: 0;
+          width: auto;
+          margin-right: 20px;
+     }
+
+     .sale-photos-item {
+          width: 132px;
+          height: 132px;
+     }
+
+     .sale-section {
+          
+     }
+
+     .sale-text {
+          padding: 60px 60px;
+     }
+
+     .sale-photos-item-main {
+          width: 552px;
+          height: 558px;
+     }
+
+     .sale-table {
+          max-width: 436px;
+     }
+
+     .sale-hero {
+          font-weight: 600;
+          font-size: 32px;
+          line-height: 1.125;
+          letter-spacing: -0.02em;
+     }
+
+     .sale-hero-par {
+          line-height: 1.29;
+     }
+
+     .sale-prices-list {
+          margin-bottom: 30px;
+     }
+
+     .sale-prices-item-ang {
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 1;
+          letter-spacing: -0.02em;
+     }
+
+     .sale-prices-item {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 1.16667;
+          letter-spacing: -0.02em;
+          text-decoration: line-through;
+     }
+
+     .sale-paragraph {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 1.25;
+          letter-spacing: -0.02em;
+          color: rgba(251, 251, 251, 0.7);
+          margin-bottom: 40px;
+     }
+
+     .sale-spec-list {
+          max-width: 398px;
+     }
+
+     .sale-spec-par {
+          font-size: 14px;
+          line-height: 1.29;
+     }
+}
+
+@media screen and (min-width: 1280px) {
+     .sale-section {
+          display: flex;
+     }
+
+     .sale-photos-item-main {
+          width: 428px;
+     }
+
+     .sale-photos {
+          margin-bottom: 0;
+          margin-right: 40px;
+     }
 }
