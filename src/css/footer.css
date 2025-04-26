@@ -24,10 +24,6 @@ address {
   flex-direction: column;
   justify-content: space-between;
 }
-.footer-wrapper-streitch {
-}
-.footer-wrapper-logo {
-}
 
 .footer-logo {
   font-weight: 500;
@@ -54,9 +50,17 @@ address {
   justify-content: center;
   align-items: center;
 }
+
 .footer-socials-icon {
   fill: #fbfbfb;
+  opacity: 0.8;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.footer-socials-icon:focus {
+  opacity: 1;
+}
+
 .footer-tel {
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 16px;
@@ -80,9 +84,6 @@ address {
   text-align: center;
 }
 
-.footer-wrapper-streitch-down {
-}
-
 .footer-contacts {
   display: flex;
   /* flex-direction: row;
@@ -99,14 +100,12 @@ address {
   flex-wrap: wrap;
   flex-grow: 1;
 }
-.footer-list-pages-item {
-}
+
 .footer-list-pages-item-link {
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33;
   text-align: center;
-  /* width: calc((100% - 32px) / 3); */
 }
 
 .footer-list-pages-reviews {
@@ -135,8 +134,7 @@ address {
   flex-direction: row;
   gap: 20px;
 }
-.footer-data-list-item {
-}
+
 .footer-data-list-text {
   font-weight: 500;
   font-size: 10px;
@@ -147,12 +145,146 @@ address {
 }
 
 @media screen and (min-width: 768px) {
+  .footer.container {
+    padding-top: 40px;
+    padding-bottom: 32px;
+  }
+
   .footer-wrapper {
-    border-radius: 30px;
     padding: 40px 40px 28px 40px;
+    gap: 100px;
+  }
+  .footer-logo {
+    font-size: 20px;
+  }
+
+  .footer-socials {
+    margin-bottom: auto;
+  }
+
+  .footer-socials-item {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer-socials-icon {
+    opacity: 0.8;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-socials-icon:focus {
+    opacity: 1;
+  }
+  .footer-socials-icon:hover {
+    opacity: 1;
+  }
+  .footer-socials-icon:active {
+    opacity: 1;
+  }
+
+  .footer-tel {
+    padding: 15px 15px;
+  }
+  .footer-tel-link {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+  .footer-wrapper-tablet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-slogan {
+    font-size: 28px;
+    line-height: 1.14;
+    width: 524px;
+    margin: 0 auto;
+  }
+  .footer-wrapper-streitch {
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+  }
+
+  .footer-contacts {
+    gap: 62px;
+    padding-bottom: 28px;
+  }
+
+  .footer-list-pages {
+    gap: 19px;
+    flex-wrap: nowrap;
+  }
+
+  .footer-list-pages-item-link {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .footer-list-pages-reviews {
+    gap: 19px;
+  }
+  .footer-address {
+    font-size: 14px;
+    line-height: 1.29;
+    justify-content: flex-end;
+    max-width: 162px;
+  }
+
+  .footer-data {
+    font-size: 14px;
+    line-height: 1.29;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .footer-data-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .footer-data-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 28px;
+  }
+
+  .footer-data-list-text {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer.container {
+    padding-top: 50px;
+    padding-bottom: 32px;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .footer-wrapper {
+    gap: 126px;
+  }
+
+  .footer-wrapper-streitch {
+    gap: 0;
+  }
+
+  .footer-wrapper-tablet {
   }
   .footer-wrapper-logo {
-    display: flex;
-    justify-content: space-between;
+  }
+  .footer-slogan {
+    order: 2;
+  }
+
+  .footer-list-pages {
+    gap: 40px;
+  }
+  .footer-list-pages-reviews {
+    gap: 40px;
   }
 }
