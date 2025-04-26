@@ -68,6 +68,11 @@ address {
   padding: 14px 20px;
   margin-bottom: 40px;
 }
+
+.footer-tel-desktop {
+  display: none;
+}
+
 .footer-tel-link {
   font-weight: 500;
   font-size: 12px;
@@ -156,6 +161,7 @@ address {
   }
   .footer-logo {
     font-size: 20px;
+    order: 1;
   }
 
   .footer-socials {
@@ -270,20 +276,23 @@ address {
   }
 
   .footer-wrapper-streitch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     gap: 0;
-  }
-
-  .footer-wrapper-tablet {
-  }
-  .footer-wrapper-logo {
-  }
-  .footer-slogan {
-    order: 2;
   }
 
   .footer-list-pages {
     gap: 40px;
   }
+  .footer-tel {
+    display: none;
+  }
+
+  .footer-tel.footer-tel-desktop {
+    display: block;
+  }
+
   .footer-list-pages-reviews {
     gap: 40px;
   }
