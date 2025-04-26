@@ -186,8 +186,26 @@ img {
     max-width: 1280px;
     padding: 0 15px;
   }
+  .catalog .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .catalog-list {
     display: flex;
     flex-direction: row;
+    column-gap: 23px;
+    row-gap: 32px;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .catalog-item {
+    width: calc((100% - 46px) / 3);
+  }
+  .catalog-img {
+    width: 292px;
+    height: 292px;
+    margin-bottom: 20px;
   }
 }
