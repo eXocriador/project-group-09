@@ -8,13 +8,14 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
-
+/* 
 .hero-container {
   max-width: 335px;
   margin: auto;
-}
+} */
 
 .hero-title {
   font-weight: 600;
@@ -105,12 +106,13 @@
 
 @media only screen and (min-width: 768px) {
   .hero-section {
+    padding-top: 80px;
     padding-bottom: 80px;
   }
 
-  .hero-container {
+  /* .hero-container {
     max-width: 704px;
-  }
+  } */
 
   .hero-title {
     font-size: 70px;
@@ -168,12 +170,13 @@
 
 @media only screen and (min-width: 1280px) {
     .hero-section {
+        padding-top: 80px;
         padding-bottom: 100px;
       }
       
-      .hero-container {
+      /* .hero-container {
         max-width: 1150px;
-      }
+      } */
       
       .hero-title {
         font-size: 72px;
