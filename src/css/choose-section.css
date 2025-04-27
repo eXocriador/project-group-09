@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Gilroy-SemiBold";
+    src: url("https://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.eot");
+    src: url("https://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.svg#Gilroy-SemiBold")format("svg");
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Medium.eot');
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Medium.woff') format('woff'),
+        url('Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.choose-section{
+    background: #0c0c0c;
+    height: 363px;
+    margin: 0 auto;
+    max-width: 335px;
+    background-image: url(/img/imgim/mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+@media screen and (min-resolution: 2x) {
+    .choose-section {
+        background-image: url(/img/imgim/mobile@2x.png);
+    }
+}
+
+@media screen and (min-width: 768px){
+    .choose-section{
+        height: 425px;
+        margin: 0 auto;
+        max-width: 704px;
+        background-image: url(/img/imgim/tablet.png);
+    }
+
+    @media screen and (min-resolution: 2x) {
+        .choose-section{
+            background-image: url(/img/imgim/tablet@2x.png);
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .choose-section {
+        height: 298px;
+        margin: 0 auto;
+        max-width: 1150px;
+        background-image: url(/img/imgim/desktop.png);
+    }
+
+    @media screen and (min-resolution: 2x) {
+        .choose-section {
+            background-image: url(../img/imgim/desktop@2x.png);
+        }
+    }
+}
+
+.container-choose{
+    display:block;
+    padding: 60px 28px;
+}
+
+@media screen and (min-width: 768px){
+    .container-choose {
+        padding: 80px 64px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .container-choose {
+        padding: 83px 80px;
+        display: flex;
+        gap:140px;
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(100%);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.text-section-choose {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    text-align: left;
+    margin-bottom: 28px;
+    height: 167px;
+}
+
+@media screen and (min-width: 768px){
+    .text-section-choose{
+        font-size: 48px;
+        margin-bottom: 32px;
+        height: 185px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .text-section-choose{
+        margin-bottom: 0;
+        height: 132px;
+    }
+}
+
+.text-your-story {
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.button-st-choose {
+    width: 160px;
+    height: 48px;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fbfbfb;
+    padding: 0px 0px;
+    transition-property: color, background-color, box-shadow;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-st-choose:hover{
+    background: #fbfbfb;
+    color: #0c0c0c;
+}
+
+.button-st-choose:focus{
+    background: #fbfbfb;
+    color: #0c0c0c;
+}
