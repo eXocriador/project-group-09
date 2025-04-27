@@ -1,13 +1,4 @@
 /* catalog */
-.catalog {
-  padding: 30px 0 30px;
-}
-.catalog.container {
-  min-width: 335px;
-
-  margin: 0 auto;
-}
-
 .catalog-title {
   font-weight: 600;
   font-size: 32px;
@@ -90,10 +81,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
   .catalog-btn-none {
     display: none;
   }
@@ -138,11 +125,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 15px;
-  }
-  .catalog .container {
+   .catalog .container {
     padding-top: 50px;
     padding-bottom: 50px;
   }
