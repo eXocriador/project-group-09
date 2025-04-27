@@ -1,5 +1,6 @@
 .sale-section-main {
      padding: 30px 0;
+     margin-bottom: 0;
 }
 
 .sale-main {
@@ -147,7 +148,7 @@
      .sale-main {
           font-weight: 600;
           font-size: 48px;
-          line-height: 0.91667;
+          line-height: 0.92;
           letter-spacing: -0.02em;
      }
 
