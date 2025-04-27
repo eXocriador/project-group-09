@@ -1,42 +1,80 @@
-<section class="contact-us" id="contact-us">
+<section class="contact-section" id="contact-us">
   <div class="container">
-    <h2 class="contact-us__title">Contact Us</h2>
-
-    <div class="contact-us__content">
-      
-      <div class="contact-us__form-container">
-        <p class="contact-us__text">
-          Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.
+    <h2 class="contact-heading">Contact Us</h2>
+    <div class="wrapper">
+      <div class="form-card">
+        <p class="card-subtitle">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
         </p>
-
-        <form class="contact-us__form">
-          <div class="form-group">
-            <input type="text" name="name" class="form-control" placeholder="Name" required />
+        <form class="form-container" autocomplete="on">
+          <div class="form-content">
+            <input
+              class="input-field"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Name"
+              required
+            />
           </div>
-          <div class="form-group">
-            <input type="email" name="email" class="form-control" placeholder="Email"
-              autocomplete="email"
-              pattern="([A-z0-9._-]{1,})@([A-z0-9._-]{1,}).([A-z]{2,8})" required />
+          <div class="form-content">
+            <input
+              class="input-field"
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
           </div>
-          <div class="form-group">
-            <input type="tel" name="phone" class="form-control" placeholder="+380"
-              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" required />
+          <div class="form-content">
+            <input
+              class="input-field"
+              type="tel"
+              name="user-tel"
+              id="user-tel"
+              placeholder="+380"
+              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              required
+            />
           </div>
-          <div class="form-group">
-            <textarea name="comment" class="form-control" placeholder="Comment" rows="4" required></textarea>
+          <div class="form-content">
+            <textarea
+              id="user-comment"
+              class="textarea-field"
+              name="user-comment"
+              rows="4"
+              placeholder="Comment"
+            ></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Send</button>
+          <button class="send-button" type="submit">Send</button>
         </form>
       </div>
-
-      <div class="contact-us__image-container">
+      <div class="image-wrapper">
         <picture>
-          <source srcset="../img/contact-us.png" media="(min-width: 1280px)" />
-          <source srcset="../img/contact-us2px.png" media="(min-width: 768px)" />
-          <img src="../img/contact-us3px.png" alt="Luxury watch" class="contact-us__image" />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/img/cont-dest-min.jpg 1x, /img/cont-dest@2x-min.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/img/cont-tab-min.jpg 1x, /img/cont-tab@2x-min.jpg 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/img/cont-mob-min.jpg 1x, /img/cont-mob@2x-min.jpg 2x"
+          />
+          <img
+            src="/img/cont-mob-min.jpg"
+            class="contact-image"
+            alt="image"
+            width="335"
+            height="512"
+          />
         </picture>
       </div>
-
     </div>
   </div>
 </section>
