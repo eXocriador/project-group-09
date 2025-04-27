@@ -1,57 +1,5 @@
-/* страница сгенерированна с помощь "LGBT chat" и ИИ "DickPic" */
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-
-body{
-    font-family: "Gilroy", sans-serif;
-    background-color: #fff;
-    color: #0C0C0C;
-}
-
-ul,
-ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-size: inherit;
-    font-family: inherit;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-a {
-    text-decoration: none;
-}
-
-button {
-    cursor: pointer;
-}
 
 /* если подключены стили то все выше можно удалить */
-
-/* https://youtu.be/q3z2wheJWyk?si=r14Uku3RyMSXT2BI&t=123 */
 
 /* начало */
 
@@ -60,7 +8,7 @@ button {
     padding: 50px 0;
 }
 
-.container {
+.container.div-reviews {
     min-width: 320px;
     max-width: 375px;
     margin: 0 auto;
