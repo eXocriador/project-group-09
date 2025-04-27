@@ -19,7 +19,6 @@
 .sale-photos-list {
      display: flex;
      flex-wrap: wrap;
-     /* justify-content: space-between; */
 }
 
 .small-photos {
@@ -73,10 +72,10 @@
 
 .sale-hero-par {
      font-weight: 400;
-font-size: 14px;
-line-height: 1.23;
-letter-spacing: -0.02em;
-color: rgba(251, 251, 251, 0.5);
+     font-size: 14px;
+     line-height: 1.23;
+     letter-spacing: -0.02em;
+     color: rgba(251, 251, 251, 0.5);
 }
 
 .sale-prices-list {
@@ -115,11 +114,11 @@ color: rgba(251, 251, 251, 0.5);
 
 .sale-paragraph {
      font-weight: 500;
-font-size: 14px;
-line-height: 1.29;
-letter-spacing: -0.02em;
-color: rgba(251, 251, 251, 0.7);
-margin-bottom: 28px;
+     font-size: 14px;
+     line-height: 1.29;
+     letter-spacing: -0.02em;
+     color: rgba(251, 251, 251, 0.7);
+     margin-bottom: 28px;
 }
 
 .sale-spec-list {
@@ -154,7 +153,6 @@ margin-bottom: 28px;
      }
 
      .sale-photos-list {
-          
           flex-wrap: nowrap;
      }
 
