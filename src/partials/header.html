@@ -65,7 +65,7 @@
         ></a>
       </li>
     </ul>
-    <button class="menu-btn" type="button">
+    <button class="menu-btn" type="button" data-menu-open>
       <svg class="menu-icon" width="34" height="34">
         <use href="/img/sprite.svg#icon-menu"></use>
       </svg>
@@ -73,9 +73,9 @@
 
     <!------------------------------------------ menu ------------------------------------------->
 
-    <div class="modal-menu is-open">
+    <div class="modal-menu" data-menu>
       <div class="menu">
-        <button class="menu-close-btn" type="button">
+        <button class="menu-close-btn" type="button" data-menu-close>
           <svg class="menu-close-icon" width="34" height="34">
             <use href="/img/sprite.svg#icon-close"></use>
           </svg>
@@ -151,4 +151,6 @@
       </div>
     </div>
   </div>
+
+  <script src="../main.js"></script>
 </header>
