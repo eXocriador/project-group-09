@@ -1,8 +1,8 @@
-*,
+/* *,
 ::after,
 ::before {
   box-sizing: content-box;
-}
+} */
 
 .hero-section {
   display: flex;
@@ -169,63 +169,61 @@
 }
 
 @media only screen and (min-width: 1280px) {
-    .hero-section {
-        padding-top: 80px;
-        padding-bottom: 100px;
-      }
-      
-      /* .hero-container {
+  .hero-section {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  /* .hero-container {
         max-width: 1150px;
       } */
-      
-      .hero-title {
-        font-size: 72px;
-        line-height: 87%;
-        width: 597px;
-      }
-      
-      .span-word {
-        color: #3350e9;
-      }
-      
-      .hero-text {
-        font-size: 16px;
-        line-height: 125%;
-        margin-bottom: 0;
-        max-width: 480px;
-      }
-      
-      .hero-sides-container {
-        display: flex;
-        gap: 407px;
-        margin-bottom: 40px;
-        max-width: 1150px;
-      }
-      
-      .hero-list-container {
-        display: flex;
-        flex-direction: column;
-        text-align: right;
-      }
-      .hero-list {
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 0;
-      }
-      
-      .hero-list-item {
-        width: 56px;
-        height: 56px;
-      }
-      
-      .hero-scroll-link {
-        font-size: 20px;
-        line-height: 100%;
-      }
-      
-      .hero-img {
-        border-radius: 50px;
-      }
-      
-}
 
+  .hero-title {
+    font-size: 72px;
+    line-height: 87%;
+    width: 597px;
+  }
+
+  .span-word {
+    color: #3350e9;
+  }
+
+  .hero-text {
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 0;
+    max-width: 480px;
+  }
+
+  .hero-sides-container {
+    display: flex;
+    gap: 407px;
+    margin-bottom: 40px;
+    max-width: 1150px;
+  }
+
+  .hero-list-container {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+  .hero-list {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+  }
+
+  .hero-list-item {
+    width: 56px;
+    height: 56px;
+  }
+
+  .hero-scroll-link {
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  .hero-img {
+    border-radius: 50px;
+  }
+}
