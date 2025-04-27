@@ -9,7 +9,7 @@
   justify-content: center;
   margin: 0 auto;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 /* 
 .hero-container {
@@ -107,7 +107,7 @@
 @media only screen and (min-width: 768px) {
   .hero-section {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
   }
 
   /* .hero-container {
@@ -171,7 +171,7 @@
 @media only screen and (min-width: 1280px) {
   .hero-section {
     padding-top: 80px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 
   /* .hero-container {
