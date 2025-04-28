@@ -1,6 +1,13 @@
 body {
   font-family: "Gilroy", sans-serif;
+ 
 }
+
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 
 
