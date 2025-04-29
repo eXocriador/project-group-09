@@ -5,6 +5,10 @@
 } */
 
 .hero-section {
+  padding-top: 60px;
+}
+
+.hero-container .container {
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -114,7 +118,6 @@
 @media only screen and (min-width: 768px) {
   .hero-section {
     padding-top: 80px;
-    padding-bottom: 40px;
   }
 
   .tab-text-container {
@@ -182,7 +185,6 @@
 @media only screen and (min-width: 1280px) {
   .hero-section {
     padding-top: 80px;
-    padding-bottom: 50px;
   }
 
   /* .hero-container {

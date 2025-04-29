@@ -52,25 +52,28 @@
         <a class="hero-scroll-link" href="#footer">Scroll down</a>
       </div>
     </div>
-    
+
     <picture class="hero-img">
       <source
         media="(min-width: 1280px)"
         srcset="
-          ./img/hero-img/imagecompressor/hero-3-min.jpg 1x,
+          ./img/hero-img/imagecompressor/hero-3-min.jpg    1x,
           ./img/hero-img/imagecompressor/hero-3@2x-min.jpg 2x
         "
       />
       <source
         media="(min-width: 768px)"
         srcset="
-          ./img/hero-img/imagecompressor/hero-2-min.jpg 1x,
+          ./img/hero-img/imagecompressor/hero-2-min.jpg    1x,
           ./img/hero-img/imagecompressor/hero-2@2x-min.jpg 2x
         "
       />
       <source
-        media="(min-width: 320px)"
-        srcset="./img/hero-img/imagecompressor/hero-1-min.jpg 1x, ./img/hero-img/imagecompressor/hero-1@2x-min.jpg 2x"
+        media="(max-width:767px)"
+        srcset="
+          ./img/hero-img/imagecompressor/hero-1-min.jpg    1x,
+          ./img/hero-img/imagecompressor/hero-1@2x-min.jpg 2x
+        "
       />
       <img src="./img/hero-img/imagecompressor/hero-3-min.jpg" />
     </picture>
