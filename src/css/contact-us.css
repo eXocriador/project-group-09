@@ -1,22 +1,3 @@
-.contact-section {
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
-
-@media screen and (min-width: 768px) {
-  .contact-section {
-    padding-bottom: 40px;
-    padding-top: 40px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .contact-section {
-    padding-bottom: 50px;
-    padding-top: 50px;
-  }
-}
-
 .contact-heading {
   font-weight: 600;
   font-size: 32px;
