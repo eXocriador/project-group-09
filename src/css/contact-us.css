@@ -71,13 +71,6 @@
   }
 }
 
-.form-container {
-  display: flex;
-  flex-direction: column;
-  
-  gap: 18px;
-}
-
 .input-field {
   border-radius: 12px;
   padding: 12px 14px;
@@ -88,6 +81,14 @@
   transition: border-color 200ms ease-in-out 100ms;
   outline: none;
 }
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  
+  gap: 18px;
+}
+
 
 .input-field:focus {
   border-color: #1f3cd4;
