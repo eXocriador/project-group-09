@@ -98,7 +98,7 @@
   }
 
   .catalog-img-container {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 10px 0;
   }
 
@@ -118,7 +118,7 @@
 
   .catalog-item {
     width: calc((100% - 16px) / 2);
-    padding: 34px 38px;
+    padding: 24px 32px;
   }
 
   .catalog-name {
@@ -145,5 +145,11 @@
 
   .catalog-item {
     width: calc((100% - 46px) / 3);
+    padding: 24px 32px;
+  }
+
+  .catalog-img-container {
+    padding: 0;
+    padding-top: 6px;
   }
 }
