@@ -1,115 +1,99 @@
-
 /* если подключены стили то все выше можно удалить */
 
 /* начало */
 
-.sec-Reviews {
-    margin: 0 auto;
-    padding: 30px 0;
-}
-
 .rev-h1 {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 0.92;
-    letter-spacing: -0.02em;
-    color: #0C0C0C;
-    margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 40px;
 }
 
 .li-img {
-    margin: 0 auto 24px;
-    border-radius: 50%;
+  margin: 0 auto 24px;
+  border-radius: 50%;
 }
 
 .rev-li {
-    border-radius: 30px;
-    padding: 32px 36px;
-    width: 335px;
-    height: 262px;
-    background: #F3F3F3;
+  border-radius: 30px;
+  padding: 32px 36px;
+  width: 335px;
+  height: 262px;
+  background: #f3f3f3;
 }
 
 .ul-li-H {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: #0C0C0C;
-    margin: 0 auto 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #0c0c0c;
+  margin: 0 auto 8px;
 }
 
 .li-p {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: rgba(12, 12, 12, 0.4);
-    width: 263px;
-    height: 90px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(12, 12, 12, 0.4);
+  width: 263px;
+  height: 90px;
 }
 
 .rev-li.li-tablet {
-    display: none;
+  display: none;
 }
 
 .rev-li.li-desktop {
-    display: none;
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
+  .rev-ul {
+    display: flex;
+    gap: 20px;
+  }
 
-    .sec-Reviews {
-        padding: 40px 0;
-    }
+  .rev-li.li-tablet {
+    display: block;
+  }
 
-    .rev-ul {
-        display: flex;
-        gap: 20px;
-    }
+  .li-p {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 272px;
+    height: 100px;
+  }
 
-    .rev-li.li-tablet {
-        display: block;
-    }
+  .rev-li {
+    width: 344px;
+    height: 272px;
+  }
 
-    .li-p {
-        font-size: 16px;
-        line-height: 1.25;
-        width: 272px;
-        height: 100px;
-    }
-
-    .rev-li {
-        width: 344px;
-        height: 272px;
-    }
-
-    .ul-li-H {
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 1.1;
-    }
+  .ul-li-H {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.1;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .rev-li.li-desktop {
+    display: block;
+  }
 
-    .sec-Reviews {
-        padding: 50px 0;
-    }
+  .li-p {
+    width: 298px;
+  }
 
-    .rev-li.li-desktop {
-        display: block;
-    }
-
-    .li-p {
-        width: 298px;
-    }
-
-    .rev-li {
-        width: 370px;
-    }
+  .rev-li {
+    width: 370px;
+  }
 }
 
 /* конец */
