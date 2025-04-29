@@ -12,6 +12,10 @@
      color: #0c0c0c;
 }
 
+.sale-photos-all {
+     margin-bottom: 20px;
+}
+
 .sale-photos {
      margin-bottom: 20px;
 }
@@ -19,6 +23,7 @@
 .sale-photos-list {
      display: flex;
      flex-wrap: wrap;
+     justify-content: space-between;
 }
 
 .small-photos {
@@ -27,6 +32,16 @@
      justify-content: space-between;
      width: 100%;
      margin-bottom: 20px;
+}
+
+.big-photo {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 385px;
+     border: 1px solid rgba(12, 12, 12, 0.05);
+     border-radius: 30px;
+     background-color:  #f3f3f3
 }
 
 .sale-photos-item {
@@ -152,15 +167,36 @@
           letter-spacing: -0.02em;
      }
 
-     .sale-photos-list {
-          flex-wrap: nowrap;
+     .sale-photos-all {
+          margin-bottom: 20px;
+          display: flex;
+          gap: 20px;
      }
 
-     .small-photos {
+     .sale-photos-list {
+          flex-wrap: nowrap;
+          flex-direction: column;
+          height: 100%;
+     }
+
+     .watches-first {
+          width: 96px;
+     }
+
+     .big-photo {
+          width: 100%;
+          height: 558px;
+     }
+
+     .watches-main {
+          width: 328px;
+     }
+
+     .sale-photos {
           flex-direction: column;
           margin-bottom: 0;
           width: auto;
-          margin-right: 20px;
+          /* margin-right: 20px; */
      }
 
      .sale-photos-item {
@@ -244,12 +280,16 @@
           display: flex;
      }
 
-     .sale-photos-item-main {
+     .big-photo {
           width: 428px;
+     }
+
+     .sale-photos-all {
+          margin-bottom: 0;
+          margin-right: 40px;
      }
 
      .sale-photos {
           margin-bottom: 0;
-          margin-right: 40px;
      }
 }
