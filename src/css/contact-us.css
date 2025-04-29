@@ -233,3 +233,16 @@
 .input-field:not(:placeholder-shown):invalid ~ .text-invalid {
   display: block;
 }
+
+@media screen and (max-width: 374px) {
+  .form-card {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .input-field,
+  .textarea-field {
+    width: 100%;
+  }
+}
