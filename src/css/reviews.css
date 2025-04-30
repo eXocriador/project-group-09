@@ -2,10 +2,10 @@
 
 /* начало */
 
-.rev-h1 {
+.rev-h2 {
   font-weight: 600;
-  font-size: 48px;
-  line-height: 0.92;
+  font-size: 32px;
+  line-height: 1;
   letter-spacing: -0.02em;
   color: #0c0c0c;
   margin-bottom: 40px;
@@ -19,8 +19,6 @@
 .rev-li {
   border-radius: 30px;
   padding: 32px 36px;
-  width: 335px;
-  height: 262px;
   background: #f3f3f3;
 }
 
@@ -41,7 +39,7 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: rgba(12, 12, 12, 0.4);
-  width: 263px;
+
   height: 90px;
 }
 
@@ -59,6 +57,11 @@
     gap: 20px;
   }
 
+  .rev-h2 {
+    font-size: 48px;
+    line-height: 0.92;
+  }
+
   .rev-li.li-tablet {
     display: block;
   }
@@ -66,13 +69,8 @@
   .li-p {
     font-size: 16px;
     line-height: 1.25;
-    width: 272px;
+    width: 100%;
     height: 100px;
-  }
-
-  .rev-li {
-    width: 344px;
-    height: 272px;
   }
 
   .ul-li-H {
@@ -88,11 +86,7 @@
   }
 
   .li-p {
-    width: 298px;
-  }
-
-  .rev-li {
-    width: 370px;
+    width: 100%;
   }
 }
 
