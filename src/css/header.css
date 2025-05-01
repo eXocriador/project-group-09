@@ -127,6 +127,11 @@
   .header-social-list-link:focus .header-social-list-icon {
     fill: #3350e9;
   }
+
+  .header-social-list-link:hover,
+  .header-social-list-link:focus {
+    border: 1px solid rgba(51, 80, 233, 0.1);
+  }
 }
 
 /* ------------------menu------------------ */
