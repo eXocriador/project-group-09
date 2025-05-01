@@ -91,8 +91,6 @@
 
 .footer-contacts {
   display: flex;
-  /* flex-direction: row;
-  justify-content: space-between; */
   gap: 48px;
   border-bottom: solid 1px rgba(251, 251, 251, 0.1);
   padding-bottom: 24px;
@@ -193,7 +191,9 @@
 
   .footer-tel {
     padding: 15px 15px;
+    height: 100%;
   }
+
   .footer-tel-link {
     font-size: 14px;
     line-height: 1.29;
