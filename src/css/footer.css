@@ -99,10 +99,10 @@
 
 .footer-list-pages {
   display: flex;
-  gap: 8px 16px;
-  flex-direction: row;
   flex-wrap: wrap;
-  flex-grow: 1;
+  gap: 8px 16px;
+  margin-right: auto;
+  min-width: 147px;
 }
 
 .footer-list-pages-item-link {
@@ -116,8 +116,8 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33;
-  justify-content: flex-end;
 }
+
 .footer-data {
   font-weight: 500;
   font-size: 10px;
