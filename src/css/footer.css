@@ -37,6 +37,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .footer-socials-item {
   border: 1px solid rgba(251, 251, 251, 0.1);
   border-radius: 10px;
@@ -270,8 +271,10 @@
   .footer {
     padding-top: 50px;
     padding-bottom: 32px;
-    padding-right: 32px;
-    padding-left: 32px;
+  }
+
+  .footer .container {
+    padding: 0 32px;
   }
 
   .footer-wrapper {
