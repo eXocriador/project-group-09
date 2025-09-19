@@ -1,9 +1,9 @@
-.choose-section {
+.chooseSection {
   display: block;
   margin: 0 auto;
 }
 
-.container-choose {
+.containerChoose {
   display: block;
   background: #0c0c0c;
   background-image: url(/assets/images/mobile.png);
@@ -14,51 +14,38 @@
   padding: 60px 28px;
 }
 @media screen and (min-resolution: 2x) {
-  .container-choose {
+  .containerChoose {
     background-image: url(/assets/images/mobile@2x.png);
   }
 }
 
 @media screen and (min-width: 768px) {
-  .container-choose {
+  .containerChoose {
     background-image: url(/assets/images/tablet.png);
     padding: 80px 64px;
   }
   @media screen and (min-resolution: 2x) {
-    .container-choose {
+    .containerChoose {
       background-image: url(/assets/images/tablet@2x.png);
     }
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .container-choose {
+  .containerChoose {
     display: flex;
     gap: 140px;
     background-image: url(/assets/images/desktop.png);
     padding: 83px 80px;
   }
   @media screen and (min-resolution: 2x) {
-    .container-choose {
-      background-image: url(/assets/images/desktop@2x.png);
+    .containerChoose {
+      background-image: url(../assets/images/desktop@2x.png);
     }
   }
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  clip-path: inset(100%);
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.text-section-choose {
+.textSectionChoose {
   font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 32px;
@@ -71,7 +58,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .text-section-choose {
+  .textSectionChoose {
     font-size: 48px;
     margin-bottom: 32px;
     width: 576px;
@@ -80,18 +67,18 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .text-section-choose {
+  .textSectionChoose {
     margin-bottom: 0;
     width: 690px;
     height: 132px;
   }
 }
 
-.text-your-story {
+.textYourStory {
   color: rgba(251, 251, 251, 0.5);
 }
 
-.button-st-choose {
+.buttonStChoose {
   display: inline-block;
   padding-top: 15px;
   padding-left: 44px;
@@ -108,7 +95,7 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 1280px) {
-  .button-st-choose {
+  .buttonStChoose {
     display: flex;
     width: 160px;
     height: 48px;
@@ -119,12 +106,12 @@
   }
 }
 
-.button-st-choose:hover {
+.buttonStChoose:hover {
   background: #fbfbfb;
   color: #0c0c0c;
 }
 
-.button-st-choose:focus {
+.buttonStChoose:focus {
   background: #fbfbfb;
   color: #0c0c0c;
 }
