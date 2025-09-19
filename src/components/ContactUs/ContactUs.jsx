@@ -48,7 +48,7 @@ export default function ContactUs() {
                   type="tel"
                   name="user-tel"
                   id="user-tel"
-                  placeholder="+380"
+                  placeholder="+1"
                   pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
                   required
                 />

@@ -35,7 +35,7 @@ export default function Catalog() {
               <p className={styles.catalogName}>
                 Garmin Fenix 7X Pro Sapphire Solar
               </p>
-              <p className={styles.catalogText}>€500</p>
+              <p className={styles.catalogText}>€847</p>
             </div>
           </li>
 
@@ -65,7 +65,7 @@ export default function Catalog() {
             </div>
             <div className={styles.catalogItemWrapper}>
               <p className={styles.catalogName}>Garmin Marq Athlete</p>
-              <p className={styles.catalogText}>€450</p>
+              <p className={styles.catalogText}>€623</p>
             </div>
           </li>
 
@@ -95,7 +95,7 @@ export default function Catalog() {
             </div>
             <div className={styles.catalogItemWrapper}>
               <p className={styles.catalogName}>Garmin Descent MK1</p>
-              <p className={styles.catalogText}>€680</p>
+              <p className={styles.catalogText}>€1,249</p>
             </div>
           </li>
 
@@ -125,7 +125,7 @@ export default function Catalog() {
             </div>
             <div className={styles.catalogItemWrapper}>
               <p className={styles.catalogName}>Garmin D2 Delta PX</p>
-              <p className={styles.catalogText}>€380</p>
+              <p className={styles.catalogText}>€512</p>
             </div>
           </li>
 
@@ -155,7 +155,7 @@ export default function Catalog() {
             </div>
             <div className={styles.catalogItemWrapper}>
               <p className={styles.catalogName}>Garmin Fenix 6 Pro Solar</p>
-              <p className={styles.catalogText}>€400</p>
+              <p className={styles.catalogText}>€789</p>
             </div>
           </li>
 
@@ -187,7 +187,7 @@ export default function Catalog() {
               <p className={styles.catalogName}>
                 Tube Watch S42 Date Steel With Black Case
               </p>
-              <p className={styles.catalogText}>€395</p>
+              <p className={styles.catalogText}>€934</p>
             </div>
           </li>
         </ul>

@@ -65,8 +65,8 @@ export default function Footer() {
               </div>
 
               <address className={styles.footerTel}>
-                <a className={styles.footerTelLink} href="tel:+380684439426">
-                  +380 (68) 443-94-26
+                <a className={styles.footerTelLink} href="tel:+380734829156">
+                  +380 (73) 482-91-56
                 </a>
               </address>
             </div>
@@ -77,8 +77,8 @@ export default function Footer() {
             <address
               className={`${styles.footerTel} ${styles.footerTelDesktop}`}
             >
-              <a className={styles.footerTelLink} href="tel:+380684439426">
-                +380 (68) 443-94-26
+              <a className={styles.footerTelLink} href="tel:+380734829156">
+                +380 (73) 482-91-56
               </a>
             </address>
           </div>
@@ -125,17 +125,17 @@ export default function Footer() {
               <address className={styles.footerAddress}>
                 <a
                   className={styles.footerAddressLink}
-                  href="https://www.google.com/maps/place/1678+Pioneer+Rd,+Salt+Lake+City,+UT+84104,+%D0%A1%D0%A8%D0%90/@40.733048,-111.9603985,17z/data=!3m1!4b1!4m6!3m5!1s0x8752f35b0826d399:0x2b26230524fd3ca3!8m2!3d40.733048!4d-111.9603985!16s%2Fg%2F11bw41vm_p?authuser=0&entry=ttu&g_ep=EgoyMDI1MDQyOC4wIKXMDSoASAFQAw%3D%3D"
+                  href="https://www.google.com/maps/place/2457+Main+St,+Denver,+CO+80205,+%D0%A1%D0%A8%D0%90/@39.7392,-104.9903,17z/data=!3m1!4b1!4m6!3m5!1s0x876c7b2b2b2b2b2b:0x2b2b2b2b2b2b2b2b!8m2!3d39.7392!4d-104.9903!16s%2Fg%2F11bw41vm_p?authuser=0&entry=ttu&g_ep=EgoyMDI1MDQyOC4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  1678 S. Pioneer Road Salt Lake City UT 84104
+                  2457 Main Street Denver CO 80205
                 </a>
               </address>
             </div>
             <div className={styles.footerDataWrapper}>
               <p className={styles.footerData}>
-                &copy; 2023 The Watch Spot. All rights reserved.
+                &copy; 2025 The Watch Spot. All rights reserved.
               </p>
               <ul className={styles.footerDataList}>
                 <li className={styles.footerDataListItem}>

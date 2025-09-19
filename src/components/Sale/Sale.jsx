@@ -63,14 +63,14 @@ export default function Sale() {
               <h3 className={styles.saleHero}>
                 MARQ® Commander (Gen 2) - Carbon Edition
               </h3>
-              <p className={styles.saleHeroPar}>Product tag: 706587</p>
+              <p className={styles.saleHeroPar}>Product tag: 928473</p>
             </div>
             <ul className={styles.salePricesList}>
               <li className={styles.salePricesItemAng}>
-                <p className={styles.salePriceAction}>€1500</p>
+                <p className={styles.salePriceAction}>€2,847</p>
               </li>
               <li className={styles.salePricesItem}>
-                <p className={styles.salePrice}>€3000</p>
+                <p className={styles.salePrice}>€4,692</p>
               </li>
             </ul>
             <p className={styles.saleParagraph}>
