@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.aboutUsCard {
+  background-color: #f3f3f3;
+  border-radius: 30px;
+  padding: 40px 20px;
+  text-align: left;
+}
+
+.aboutUsCardTitle {
+  margin-bottom: 28px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.aboutUsDescriptionList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.aboutUsDescriptionText {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.viewCatalogButton {
+  display: inline-block;
+  background-color: #3350e9;
+  color: #fbfbfb;
+  padding: 15px 37px;
+  border-radius: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.viewCatalogButton:hover,
+.viewCatalogButton:focus {
+  background-color: #1f3cd4;
+}
+
+.aboutUsImageCont {
+  border-radius: 30px;
+  display: block;
+}
+
+.aboutUsImage {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    border-radius: 50px;
+  }
+
+  .aboutUsCard {
+    padding: 80px 60px;
+    border-radius: 50px;
+  }
+
+  .aboutUsCardTitle {
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 0.92;
+  }
+
+  .aboutUsDescriptionText {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .aboutUsDescriptionList {
+    margin-bottom: 60px;
+  }
+
+  .aboutUsImageCont {
+    border-radius: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 40px;
+  }
+
+  .aboutUsCard {
+    width: 580px;
+  }
+
+  .aboutUsImageCont {
+    width: 580px;
+  }
+
+  .aboutUsDescriptionList {
+    margin-bottom: 40px;
+  }
+}

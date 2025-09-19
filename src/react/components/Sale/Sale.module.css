@@ -1,0 +1,297 @@
+.saleSectionMain {
+  padding: 30px 0;
+  margin-bottom: 0;
+}
+
+.saleMain {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+  color: #0c0c0c;
+}
+
+.salePhotosAll {
+  margin-bottom: 20px;
+}
+
+.salePhotos {
+  margin-bottom: 20px;
+}
+
+.salePhotosList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.smallPhotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.bigPhoto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 385px;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  background-color: #f3f3f3
+}
+
+.salePhotosItem {
+  width: calc((100% - 15px) / 4);
+  height: 80px;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.salePhotosItemMain {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 335px;
+  height: 385px;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.saleText {
+  background-color: #3350e9;
+  border-radius: 30px;
+  padding: 48px 28px;
+}
+
+.saleTable {
+  margin-bottom: 20px;
+}
+
+.saleHero {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 10px;
+}
+
+.saleHeroPar {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.23;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.salePricesList {
+  margin-bottom: 28px;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+
+.salePricesItemAng{
+  border-radius: 8px;
+  width: 68px;
+  height: 32px;
+  background: rgba(251, 251, 251, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.salePriceAction {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.salePricesItem {}
+
+.salePrice {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.saleParagraph {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 28px;
+}
+
+.saleSpecList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.saleSpecItem {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 7px 11px;
+}
+
+.saleSpecPar {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color:#fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+  .saleSectionMain {
+    padding: 40px 0;
+  }
+
+  .saleMain {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+  }
+
+  .salePhotosAll {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .salePhotosList {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .watchesFirst {
+    width: 96px;
+  }
+
+  .bigPhoto {
+    width: 100%;
+    height: 558px;
+  }
+
+  .watchesMain {
+    width: 328px;
+  }
+
+  .salePhotos {
+    flex-direction: column;
+    margin-bottom: 0;
+    width: auto;
+  }
+
+  .salePhotosItem {
+    width: 132px;
+    height: 132px;
+  }
+
+  .saleText {
+    padding: 60px 60px;
+  }
+
+  .salePhotosItemMain {
+    width: 552px;
+    height: 558px;
+  }
+
+  .saleTable {
+    max-width: 436px;
+  }
+
+  .saleHero {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.125;
+    letter-spacing: -0.02em;
+  }
+
+  .saleHeroPar {
+    line-height: 1.29;
+  }
+
+  .salePricesList {
+    margin-bottom: 30px;
+  }
+
+  .salePricesItemAng {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+
+  .salePricesItem {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+  }
+
+  .saleParagraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 40px;
+  }
+
+  .saleSpecList {
+    max-width: 398px;
+  }
+
+  .saleSpecItem {
+    height: 34px;
+  }
+
+  .saleSpecPar {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .saleSectionMain {
+    padding: 50px 0;
+  }
+
+  .saleSection {
+    display: flex;
+  }
+
+  .bigPhoto {
+    width: 428px;
+  }
+
+  .salePhotosAll {
+    margin-bottom: 0;
+    margin-right: 40px;
+  }
+
+  .salePhotos {
+    margin-bottom: 0;
+  }
+}
+
+
