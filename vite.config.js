@@ -12,7 +12,7 @@ export default defineConfig(({ command }) => {
     },
     root: 'src',
     publicDir: '../public',
-    base: command === 'build' ? '/project-group-09/' : '/',
+    base: '/',
     build: {
       sourcemap: true,
       rollupOptions: {
