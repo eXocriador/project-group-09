@@ -1,6 +1,6 @@
 import React from 'react';
-import '../assets/fonts/stylesheet.css';
-import '../css/styles.css';
+import './assets/fonts/stylesheet.css';
+import './css/styles.css';
 import Header from './components/Header/Header.jsx';
 import Hero from './components/Hero/Hero.jsx';
 import AboutUs from './components/AboutUs/AboutUs.jsx';

@@ -6,7 +6,7 @@ export default function ChooseSection() {
     <section className={styles.chooseSection}>
       <div className="container">
         <div className={styles.containerChoose}>
-          <h2 className="visually-hidden">Choose your story</h2>
+          <h2 className={styles.visuallyHidden}>Choose your story</h2>
           <p className={styles.textSectionChoose}>
             Choose <span className={styles.textYourStory}>your story</span>,
             making every moment unique. Time is your style, and we reveal it.

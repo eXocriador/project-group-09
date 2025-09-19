@@ -1,36 +1,3 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
-
-/* Шрифти*/
-@import url('../assets/fonts/stylesheet.css');
-/* Шрифти*/
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
-
-/* Sections style */
-/* Хедер Олексія*/
-@import url('./header.css');
-
-/* Секція Ані*/
-@import url('./hero.css');
-/* Секція Олексія Ос*/
-@import url('./about-us.css');
-/* Секція IRINA YEREMIZINA*/
-@import url('./catalog.css');
-/* Секція Ірина М*/
-@import url('./choose-section.css');
-/* Секція Микити*/
-@import url('./sale.css');
-/* Секція Вадима*/
-@import url('./reviews.css');
-/* Секція Романа*/
-@import url('./contact-us.css');
-
-/* Футер Міли*/
-@import url('./footer.css');
