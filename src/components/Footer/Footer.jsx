@@ -25,7 +25,7 @@ export default function Footer() {
                         width="18"
                         height="18"
                       >
-                        <use href="/assets/images/icons/sprite.svg#icon-facebook"></use>
+                        <use href="/images/icons/sprite.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
@@ -41,7 +41,7 @@ export default function Footer() {
                         width="18"
                         height="18"
                       >
-                        <use href="/assets/images/icons/sprite.svg#icon-instagram"></use>
+                        <use href="/images/icons/sprite.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
@@ -57,7 +57,7 @@ export default function Footer() {
                         width="18"
                         height="18"
                       >
-                        <use href="/assets/images/icons/sprite.svg#icon-youtube"></use>
+                        <use href="/images/icons/sprite.svg#icon-youtube"></use>
                       </svg>
                     </a>
                   </li>

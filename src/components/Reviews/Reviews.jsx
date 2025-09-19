@@ -11,19 +11,19 @@ export default function Reviews() {
             <picture>
               <source
                 media="(min-width: 1280px)"
-                srcSet="/assets/images/reviews/John-min.jpg 1x, /assets/images/reviews/John2x-min.jpg 2x"
+                srcSet="/images/reviews/John-min.jpg 1x, /images/reviews/John2x-min.jpg 2x"
               />
               <source
                 media="(min-width: 768px)"
-                srcSet="/assets/images/reviews/John-min.jpg 1x, /assets/images/reviews/John2x-min.jpg 2x"
+                srcSet="/images/reviews/John-min.jpg 1x, /images/reviews/John2x-min.jpg 2x"
               />
               <source
                 media="(max-width: 767px)"
-                srcSet="/assets/images/reviews/John-min.jpg 1x, /assets/images/reviews/John2x-min.jpg 2x"
+                srcSet="/images/reviews/John-min.jpg 1x, /images/reviews/John2x-min.jpg 2x"
               />
               <img
                 className={styles.liImg}
-                src="/assets/images/reviews/John-min.jpg"
+                src="/images/reviews/John-min.jpg"
                 alt="John Wax"
               />
             </picture>
@@ -39,19 +39,19 @@ export default function Reviews() {
             <picture>
               <source
                 media="(min-width: 1280px)"
-                srcSet="/assets/images/reviews/Viktoria-min.jpg 1x, /assets/images/reviews/Viktoria2x-min.jpg 2x"
+                srcSet="/images/reviews/Viktoria-min.jpg 1x, /images/reviews/Viktoria2x-min.jpg 2x"
               />
               <source
                 media="(min-width: 768px)"
-                srcSet="/assets/images/reviews/Viktoria-min.jpg 1x, /assets/images/reviews/Viktoria2x-min.jpg 2x"
+                srcSet="/images/reviews/Viktoria-min.jpg 1x, /images/reviews/Viktoria2x-min.jpg 2x"
               />
               <source
                 media="(max-width: 767px)"
-                srcSet="/assets/images/reviews/Viktoria-min.jpg 1x, /assets/images/reviews/Viktoria2x-min.jpg 2x"
+                srcSet="/images/reviews/Viktoria-min.jpg 1x, /images/reviews/Viktoria2x-min.jpg 2x"
               />
               <img
                 className={styles.liImg}
-                src="/assets/images/reviews/Viktoria-min.jpg"
+                src="/images/reviews/Viktoria-min.jpg"
                 alt="Victoria Romashenko"
               />
             </picture>
@@ -67,19 +67,19 @@ export default function Reviews() {
             <picture>
               <source
                 media="(min-width: 1280px)"
-                srcSet="/assets/images/reviews/Anastasia-min.jpg 1x, /assets/images/reviews/Anastasia2x-min.jpg 2x"
+                srcSet="/images/reviews/Anastasia-min.jpg 1x, /images/reviews/Anastasia2x-min.jpg 2x"
               />
               <source
                 media="(min-width: 768px)"
-                srcSet="/assets/images/reviews/Anastasia-min.jpg 1x, /assets/images/reviews/Anastasia2x-min.jpg 2x"
+                srcSet="/images/reviews/Anastasia-min.jpg 1x, /images/reviews/Anastasia2x-min.jpg 2x"
               />
               <source
                 media="(max-width: 767px)"
-                srcSet="/assets/images/reviews/Anastasia-min.jpg 1x, /assets/images/reviews/Anastasia2x-min.jpg 2x"
+                srcSet="/images/reviews/Anastasia-min.jpg 1x, /images/reviews/Anastasia2x-min.jpg 2x"
               />
               <img
                 className={styles.liImg}
-                src="/assets/images/reviews/Anastasia-min.jpg"
+                src="/images/reviews/Anastasia-min.jpg"
                 alt="Anastasia Trachuk"
               />
             </picture>

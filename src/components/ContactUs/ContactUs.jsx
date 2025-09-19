@@ -80,18 +80,18 @@ export default function ContactUs() {
             <picture>
               <source
                 media="(min-width: 1280px)"
-                srcSet="/assets/images/contact/cont-dest-min.jpg 1x, /assets/images/contact/cont-dest@2x-min.jpg 2x"
+                srcSet="/images/contact/cont-dest-min.jpg 1x, /images/contact/cont-dest@2x-min.jpg 2x"
               />
               <source
                 media="(min-width: 768px)"
-                srcSet="/assets/images/contact/cont-tab-min.jpg 1x, /assets/images/contact/cont-tab@2x-min.jpg 2x"
+                srcSet="/images/contact/cont-tab-min.jpg 1x, /images/contact/cont-tab@2x-min.jpg 2x"
               />
               <source
                 media="(max-width: 767px)"
-                srcSet="/assets/images/contact/cont-mob-min.jpg 1x, /assets/images/contact/cont-mob@2x-min.jpg 2x"
+                srcSet="/images/contact/cont-mob-min.jpg 1x, /images/contact/cont-mob@2x-min.jpg 2x"
               />
               <img
-                src="/assets/images/contact/cont-mob-min.jpg"
+                src="/images/contact/cont-mob-min.jpg"
                 className={styles.contactImage}
                 alt="image"
                 width="335"

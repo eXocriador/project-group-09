@@ -13,8 +13,8 @@ export default function Sale() {
                 <li className={styles.salePhotosItem}>
                   <img
                     className={`${styles.img} ${styles.watchesFirst}`}
-                    src="/assets/images/sale/watch-5-min.png"
-                    srcSet="/assets/images/sale/watch-5-min.png 1x, ./assets/images/sale/watch-5@2x-min.png 2x"
+                    src="/images/sale/watch-5-min.png"
+                    srcSet="/images/sale/watch-5-min.png 1x, ./images/sale/watch-5@2x-min.png 2x"
                     alt="watches"
                     width="52"
                   />
@@ -22,8 +22,8 @@ export default function Sale() {
                 <li className={styles.salePhotosItem}>
                   <img
                     className={`${styles.img} ${styles.watchesFirst}`}
-                    src="/assets/images/sale/watch-4-min.png"
-                    srcSet="/assets/images/sale/watch-4-min.png 1x, ./assets/images/sale/watch-4@2x-min.png 2x"
+                    src="/images/sale/watch-4-min.png"
+                    srcSet="/images/sale/watch-4-min.png 1x, ./images/sale/watch-4@2x-min.png 2x"
                     alt="watches"
                     width="52"
                   />
@@ -31,8 +31,8 @@ export default function Sale() {
                 <li className={styles.salePhotosItem}>
                   <img
                     className={`${styles.img} ${styles.watchesFirst}`}
-                    src="/assets/images/sale/watch-2-min.png"
-                    srcSet="/assets/images/sale/watch-2-min.png 1x, ./assets/images/sale/watch-2@2x-min.png 2x"
+                    src="/images/sale/watch-2-min.png"
+                    srcSet="/images/sale/watch-2-min.png 1x, ./images/sale/watch-2@2x-min.png 2x"
                     alt="watches"
                     width="52"
                   />
@@ -40,8 +40,8 @@ export default function Sale() {
                 <li className={styles.salePhotosItem}>
                   <img
                     className={`${styles.img} ${styles.watchesFirst}`}
-                    src="/assets/images/sale/watch-3-min.png"
-                    srcSet="/assets/images/sale/watch-3-min.png 1x, ./assets/images/sale/watch-3@2x-min.png 2x"
+                    src="/images/sale/watch-3-min.png"
+                    srcSet="/images/sale/watch-3-min.png 1x, ./images/sale/watch-3@2x-min.png 2x"
                     alt="watches"
                     width="52"
                   />
@@ -51,8 +51,8 @@ export default function Sale() {
             <div className={styles.bigPhoto}>
               <img
                 className={`${styles.img} ${styles.watchesMain}`}
-                src="/assets/images/sale/watch-1-min.png"
-                srcSet="/assets/images/sale/watch-1-min.png 1x, /assets/images/sale/watch-1@2x-min.png 2x"
+                src="/images/sale/watch-1-min.png"
+                srcSet="/images/sale/watch-1-min.png 1x, /images/sale/watch-1@2x-min.png 2x"
                 alt="watches"
                 width="235"
               />

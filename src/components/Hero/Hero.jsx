@@ -22,24 +22,24 @@ export default function Hero() {
             <ul className={styles.heroList}>
               <li className={styles.heroListItem}>
                 <img
-                  srcSet="/assets/images/hero/team-1-min.jpg 1x, /assets/images/hero/team-1@2x-min.jpg 2x"
-                  src="/assets/images/hero/team-1-min.jpg"
+                  srcSet="/images/hero/team-1-min.jpg 1x, /images/hero/team-1@2x-min.jpg 2x"
+                  src="/images/hero/team-1-min.jpg"
                   alt="women-one"
                   className={`${styles.heroSmlImage} ${styles.imageBottom}`}
                 />
               </li>
               <li className={styles.heroListItem}>
                 <img
-                  srcSet="/assets/images/hero/team-2-min.jpg 1x, /assets/images/hero/team-2@2x-min.jpg 2x"
-                  src="/assets/images/hero/team-2-min.jpg"
+                  srcSet="/images/hero/team-2-min.jpg 1x, /images/hero/team-2@2x-min.jpg 2x"
+                  src="/images/hero/team-2-min.jpg"
                   alt="men-one"
                   className={`${styles.heroSmlImage} ${styles.imageMiddle}`}
                 />
               </li>
               <li className={styles.heroListItem}>
                 <img
-                  srcSet="/assets/images/hero/team-3-min.jpg 1x, /assets/images/hero/team-3@2x-min.jpg 2x"
-                  src="/assets/images/hero/team-3-min.jpg"
+                  srcSet="/images/hero/team-3-min.jpg 1x, /images/hero/team-3@2x-min.jpg 2x"
+                  src="/images/hero/team-3-min.jpg"
                   alt="women-two"
                   className={`${styles.heroSmlImage} ${styles.imageTop}`}
                 />
@@ -54,17 +54,17 @@ export default function Hero() {
         <picture className={styles.heroImg}>
           <source
             media="(min-width: 1280px)"
-            srcSet="/assets/images/hero/hero-3-min.jpg 1x, /assets/images/hero/hero-3@2x-min.jpg 2x"
+            srcSet="/images/hero/hero-3-min.jpg 1x, /images/hero/hero-3@2x-min.jpg 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcSet="/assets/images/hero/hero-2-min.jpg 1x, /assets/images/hero/hero-2@2x-min.jpg 2x"
+            srcSet="/images/hero/hero-2-min.jpg 1x, /images/hero/hero-2@2x-min.jpg 2x"
           />
           <source
             media="(max-width:767px)"
-            srcSet="/assets/images/hero/hero-1-min.jpg 1x, /assets/images/hero/hero-1@2x-min.jpg 2x"
+            srcSet="/images/hero/hero-1-min.jpg 1x, /images/hero/hero-1@2x-min.jpg 2x"
           />
-          <img src="/assets/images/hero/hero-3-min.jpg" alt="watch" />
+          <img src="/images/hero/hero-3-min.jpg" alt="watch" />
         </picture>
       </div>
     </section>

@@ -35,18 +35,18 @@ export default function AboutUs() {
           <picture>
             <source
               media="(min-width:1280px)"
-              srcSet="/assets/images/about/about-us-desktop-1x.webp 1x, /assets/images/about/about-us-desktop-2x.webp 2x"
+              srcSet="/images/about/about-us-desktop-1x.webp 1x, /images/about/about-us-desktop-2x.webp 2x"
             />
             <source
               media="(min-width:768px)"
-              srcSet="/assets/images/about/about-us-pad-1x.webp 1x, /assets/images/about/about-us-pad-2x.webp 2x"
+              srcSet="/images/about/about-us-pad-1x.webp 1x, /images/about/about-us-pad-2x.webp 2x"
             />
             <source
               media="(max-width:767px)"
-              srcSet="/assets/images/about/about-us-mobi-1x.webp 1x, /assets/images/about/about-us-mobi-2x.webp 2x"
+              srcSet="/images/about/about-us-mobi-1x.webp 1x, /images/about/about-us-mobi-2x.webp 2x"
             />
             <img
-              src="/assets/images/about/about-us-mobi-1x.webp"
+              src="/images/about/about-us-mobi-1x.webp"
               alt="images for app"
               width="704"
               height="512"

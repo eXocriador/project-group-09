@@ -71,7 +71,7 @@ export default function Header() {
                 width="20"
                 height="20"
               >
-                <use href="/assets/images/icons/sprite.svg#icon-facebook"></use>
+                <use href="/images/icons/sprite.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
@@ -87,7 +87,7 @@ export default function Header() {
                 width="20"
                 height="20"
               >
-                <use href="/assets/images/icons/sprite.svg#icon-instagram"></use>
+                <use href="/images/icons/sprite.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
@@ -103,14 +103,14 @@ export default function Header() {
                 width="20"
                 height="20"
               >
-                <use href="/assets/images/icons/sprite.svg#icon-youtube"></use>
+                <use href="/images/icons/sprite.svg#icon-youtube"></use>
               </svg>
             </a>
           </li>
         </ul>
         <button className={styles.menuBtn} type="button" onClick={openMenu}>
           <svg className={styles.menuIcon} width="34" height="34">
-            <use href="/assets/images/icons/sprite.svg#icon-menu"></use>
+            <use href="/images/icons/sprite.svg#icon-menu"></use>
           </svg>
         </button>
 
@@ -126,7 +126,7 @@ export default function Header() {
               onClick={closeMenu}
             >
               <svg className={styles.menuCloseIcon} width="34" height="34">
-                <use href="/assets/images/icons/sprite.svg#icon-close"></use>
+                <use href="/images/icons/sprite.svg#icon-close"></use>
               </svg>
             </button>
 
@@ -190,7 +190,7 @@ export default function Header() {
                     width="18"
                     height="18"
                   >
-                    <use href="/assets/images/icons/sprite.svg#icon-facebook"></use>
+                    <use href="/images/icons/sprite.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
@@ -206,7 +206,7 @@ export default function Header() {
                     width="18"
                     height="18"
                   >
-                    <use href="/assets/images/icons/sprite.svg#icon-instagram"></use>
+                    <use href="/images/icons/sprite.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
@@ -222,7 +222,7 @@ export default function Header() {
                     width="18"
                     height="18"
                   >
-                    <use href="/assets/images/icons/sprite.svg#icon-youtube"></use>
+                    <use href="/images/icons/sprite.svg#icon-youtube"></use>
                   </svg>
                 </a>
               </li>

@@ -12,18 +12,18 @@ export default function Catalog() {
               <picture className={styles.catalogPicture}>
                 <source
                   media="(min-width:1280px)"
-                  srcSet="/assets/images/catalog/fenixpro.png 1x, /assets/images/catalog/fenixpro-2x.png 2x"
+                  srcSet="/images/catalog/fenixpro.png 1x, /images/catalog/fenixpro-2x.png 2x"
                 />
                 <source
                   media="(min-width:768px)"
-                  srcSet="/assets/images/catalog/fenixpro-tab.png 1x, /assets/images/catalog/fenixpro-tab2x.png 2x"
+                  srcSet="/images/catalog/fenixpro-tab.png 1x, /images/catalog/fenixpro-tab2x.png 2x"
                 />
                 <source
                   media="(max-width:767px)"
-                  srcSet="/assets/images/catalog/fenixpro-mob.png 1x, /assets/images/catalog/fenixpro-mob2x.png 2x"
+                  srcSet="/images/catalog/fenixpro-mob.png 1x, /images/catalog/fenixpro-mob2x.png 2x"
                 />
                 <img
-                  src="/assets/images/catalog/fenixpro.png"
+                  src="/images/catalog/fenixpro.png"
                   alt="Garmin Fenix 7X Pro Sapphire Solar"
                   width="292"
                   height="292"
@@ -44,18 +44,18 @@ export default function Catalog() {
               <picture className={styles.catalogPicture}>
                 <source
                   media="(min-width:1280px)"
-                  srcSet="/assets/images/catalog/marq.png 1x, /assets/images/catalog/marq-2x.png 2x"
+                  srcSet="/images/catalog/marq.png 1x, /images/catalog/marq-2x.png 2x"
                 />
                 <source
                   media="(min-width:768px)"
-                  srcSet="/assets/images/catalog/marq-tab.png 1x, /assets/images/catalog/marq-tab2x.png 2x"
+                  srcSet="/images/catalog/marq-tab.png 1x, /images/catalog/marq-tab2x.png 2x"
                 />
                 <source
                   media="(max-width:767px)"
-                  srcSet="/assets/images/catalog/marq-mob.png 1x, /assets/images/catalog/marq-mob2x.png 2x"
+                  srcSet="/images/catalog/marq-mob.png 1x, /images/catalog/marq-mob2x.png 2x"
                 />
                 <img
-                  src="/assets/images/catalog/marq.png"
+                  src="/images/catalog/marq.png"
                   alt="Garmin Marq Athlete"
                   width="292"
                   height="292"
@@ -74,18 +74,18 @@ export default function Catalog() {
               <picture className={styles.catalogPicture}>
                 <source
                   media="(min-width:1280px)"
-                  srcSet="/assets/images/catalog/descent.png 1x, /assets/images/catalog/descent-2x.png 2x"
+                  srcSet="/images/catalog/descent.png 1x, /images/catalog/descent-2x.png 2x"
                 />
                 <source
                   media="(min-width:768px)"
-                  srcSet="/assets/images/catalog/descent-tab.png 1x, /assets/images/catalog/descent-tab2x.png 2x"
+                  srcSet="/images/catalog/descent-tab.png 1x, /images/catalog/descent-tab2x.png 2x"
                 />
                 <source
                   media="(max-width:767px)"
-                  srcSet="/assets/images/catalog/descent-mob.png 1x, /assets/images/catalog/descent-mob2x.png 2x"
+                  srcSet="/images/catalog/descent-mob.png 1x, /images/catalog/descent-mob2x.png 2x"
                 />
                 <img
-                  src="/assets/images/catalog/descent.png"
+                  src="/images/catalog/descent.png"
                   alt="Garmin Descent MK1"
                   width="292"
                   height="292"
@@ -104,18 +104,18 @@ export default function Catalog() {
               <picture className={styles.catalogPicture}>
                 <source
                   media="(min-width:1280px)"
-                  srcSet="/assets/images/catalog/d2.png 1x, /assets/images/catalog/d2-2x.png 2x"
+                  srcSet="/images/catalog/d2.png 1x, /images/catalog/d2-2x.png 2x"
                 />
                 <source
                   media="(min-width:768px)"
-                  srcSet="/assets/images/catalog/d2-tab.png 1x, /assets/images/catalog/d2-tab2x.png 2x"
+                  srcSet="/images/catalog/d2-tab.png 1x, /images/catalog/d2-tab2x.png 2x"
                 />
                 <source
                   media="(max-width:767px)"
-                  srcSet="/assets/images/catalog/d2-mob.png 1x, /assets/images/catalog/d2-mob2x.png 2x"
+                  srcSet="/images/catalog/d2-mob.png 1x, /images/catalog/d2-mob2x.png 2x"
                 />
                 <img
-                  src="/assets/images/catalog/d2.png"
+                  src="/images/catalog/d2.png"
                   alt="Garmin D2 Delta PX"
                   width="292"
                   height="292"
@@ -134,18 +134,18 @@ export default function Catalog() {
               <picture className={styles.catalogPicture}>
                 <source
                   media="(min-width:1280px)"
-                  srcSet="/assets/images/catalog/fenix6.png 1x, /assets/images/catalog/fenix6-2x.png 2x"
+                  srcSet="/images/catalog/fenix6.png 1x, /images/catalog/fenix6-2x.png 2x"
                 />
                 <source
                   media="(min-width:768px)"
-                  srcSet="/assets/images/catalog/fenix6-tab.png 1x, /assets/images/catalog/fenix6-tab2x.png 2x"
+                  srcSet="/images/catalog/fenix6-tab.png 1x, /images/catalog/fenix6-tab2x.png 2x"
                 />
                 <source
                   media="(max-width:767px)"
-                  srcSet="/assets/images/catalog/fenix6-mob.png 1x, /assets/images/catalog/fenix6-mob2x.png 2x"
+                  srcSet="/images/catalog/fenix6-mob.png 1x, /images/catalog/fenix6-mob2x.png 2x"
                 />
                 <img
-                  src="/assets/images/catalog/fenix6.png"
+                  src="/images/catalog/fenix6.png"
                   alt="Garmin Fenix 6 Pro Solar"
                   width="292"
                   height="292"
@@ -164,18 +164,18 @@ export default function Catalog() {
               <picture className={styles.catalogPicture}>
                 <source
                   media="(min-width:1280px)"
-                  srcSet="/assets/images/catalog/watch.png 1x, /assets/images/catalog/watch-2x.png 2x"
+                  srcSet="/images/catalog/watch.png 1x, /images/catalog/watch-2x.png 2x"
                 />
                 <source
                   media="(min-width:768px)"
-                  srcSet="/assets/images/catalog/watch-tab.png 1x, /assets/images/catalog/watch-tab2x.png 2x"
+                  srcSet="/images/catalog/watch-tab.png 1x, /images/catalog/watch-tab2x.png 2x"
                 />
                 <source
                   media="(max-width:767px)"
-                  srcSet="/assets/images/catalog/watch-mob.png 1x, /assets/images/catalog/watch-mob2x.png 2x"
+                  srcSet="/images/catalog/watch-mob.png 1x, /images/catalog/watch-mob2x.png 2x"
                 />
                 <img
-                  src="/assets/images/catalog/watch.png"
+                  src="/images/catalog/watch.png"
                   alt="Tube Watch S42 Date Steel With Black Case"
                   width="292"
                   height="292"
